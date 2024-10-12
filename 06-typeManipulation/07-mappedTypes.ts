@@ -77,7 +77,7 @@ type Getters<Type> = {
     [Property in keyof Type as `get${Capitalize<string & Property>}`]: () => Type[Property]
 };
  
-type LazyPerson = Getters<Person>; // all are func
+type LazyPerson = Getters<Person2>; // all are func
          
 // type LazyPerson = {
 //     getName: () => string;
