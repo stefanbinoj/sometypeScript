@@ -1,5 +1,5 @@
 function printObjects (obj : {name : string , age ?: number}):number{
-    return obj.name , obj.age;
+    return 1;
 }
 
 printObjects({name:"stefan"});

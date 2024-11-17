@@ -6,8 +6,7 @@ function printId(id: number | string) {
   // OK
   printId("202");
   // Error
-  printId(90
-  )
+  printId(90)
 
 function nnn(any: string | number | boolean){
     return any;

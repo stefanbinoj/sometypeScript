@@ -6,7 +6,7 @@ function compare(a: string, b: string): -1 | 0 | 1 {
 
 
 interface Options {
-width: number;
+  width: number;
 }
 function configure(x: Options | "auto") {
 // ...

@@ -1,5 +1,5 @@
 //type guards:
-//if typoof
+//if typeof
 // truthiness 
 // in operator 
 //instance of 

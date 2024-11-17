@@ -12,4 +12,3 @@ function padLeft(padding: number | string, input: string): string {
 
 // both of these result in 'true'
 Boolean("hello"); // type: boolean, value: true
-!!"world"; // type: true,    value: true
