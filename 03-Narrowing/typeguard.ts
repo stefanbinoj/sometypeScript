@@ -1,6 +1,6 @@
 //type guards:
 //if typeof
-// truthiness 
+// truthiness &&
 // in operator 
 //instance of 
 
