@@ -1,4 +1,4 @@
-function add ({a ,b,c,d}:{a:number,b:number , c?:number , d?:number}){
+function add ({a ,b,c,d}:{a:number,b:number , c?:number , d?:number}):void{
     return ;
 }
 add({a:22,b:3})

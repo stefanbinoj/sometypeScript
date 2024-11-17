@@ -4,7 +4,7 @@ function greet(fn:(a:string)=>void){
     fn("Hello World!!")
 }
 
-function printToConsole(s: string) {
+function printToConsole(s: string):void {
     console.log(s);
   }
  greet(printToConsole)  

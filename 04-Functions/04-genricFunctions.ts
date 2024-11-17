@@ -1,5 +1,5 @@
 //Normal :
-function firstElement(arr: any[]) {
+function firstElement(arr: number[]) :number{
     return arr[0];
   }
 function firstElement1<Type>(arr: Type[]): Type | undefined {
